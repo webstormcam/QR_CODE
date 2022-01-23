@@ -5,4 +5,47 @@
 
 body{
     font-family: 'Outfit', sans-serif;
+    background-color: #D5E1EF;
+    
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 320px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+img{
+    width: 288px;
+    border-radius: 1rem;
+}
+
+h1{
+    color: #1F314F;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    color: #7D889E;
+    line-height: 1.3rem;
+    font-size: 15px;
+    padding: 1rem;
+    
 }
